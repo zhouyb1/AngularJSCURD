@@ -1,0 +1,35 @@
+﻿<div class="container">
+    <h2 class="page-title">产品列表</h2>
+
+    <div class="searchbar">
+        <ul class="entity-tabular-fields">
+            <li>
+                <label >搜索：</label>
+                <span class="field-control">
+                    <input type="text" ng-model="bookName" />
+                </span>
+                <label></label>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <table class="items-listing">
+        <thead>
+            <tr>
+                <th>代码</th>
+                <th>书名</th>
+                <th>作者</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="book in books|filter:bookName"> 
+                <td><a href="#!/bookEdit?code={{book.code}}">{{book.code}}</a></td>
+                <td>{{book.name}}</td>
+                <td>{{book.author}}</td>
+                <td><a href="#!/?code={{book.code}}">删除</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

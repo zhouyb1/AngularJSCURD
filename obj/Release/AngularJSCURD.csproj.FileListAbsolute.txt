@@ -1,0 +1,5 @@
+C:\Users\hcc\Documents\Visual Studio 2012\Projects\TestWeb\AngularJSCURD\bin\AngularJSCURD.dll
+C:\Users\hcc\Documents\Visual Studio 2012\Projects\TestWeb\AngularJSCURD\bin\AngularJSCURD.pdb
+C:\Users\hcc\Documents\Visual Studio 2012\Projects\TestWeb\AngularJSCURD\obj\Release\AngularJSCURD.dll
+C:\Users\hcc\Documents\Visual Studio 2012\Projects\TestWeb\AngularJSCURD\obj\Release\AngularJSCURD.pdb
+C:\Users\hcc\Documents\Visual Studio 2012\Projects\TestWeb\AngularJSCURD\obj\Release\AngularJSCURD.csprojResolveAssemblyReference.cache
